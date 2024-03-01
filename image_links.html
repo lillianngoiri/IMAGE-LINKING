@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Sections Styles */
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        /* Image Grid Styles */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+
+        .image-grid a {
+            display: block;
+            text-align: center;
+        }
+
+        .image-grid img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h1>Welcome to The Website!</h1>
+        <p>This website showcases images related to technology, nature, and food.</p>
+        <h2>Technology</h2>
+        <a href="https://bernardmarr.com/the-10-biggest-technology-trends-that-will-transform-the-next-decade/" target="_blank"><img src="images/technology.jpg" alt="Technology Image" style="height: 500x; width: 500px;"></a>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section >
+        <h2>Nature Gallery</h2>
+        <div class="image-grid">
+            <a href="https://silvotherapy.co.uk/articles/why-are-nature-sounds-so-relaxing" target="_blank"><img src="images/nature.jpg" blan alt="Nature Image 1"></a>
+            <a href="https://www.nationaltrust.org.uk/our-cause/nature-climate/nature-conservation/everyone-needs-nature" target="_blank"><img src="images/nature2.jpg" alt="Nature Image 2"></a>
+            <a href="https://corporate.walmart.com/purpose/sustainability/planet/nature" target="_blank"><img src="images/nature3.jpg" alt="Nature Image 3"></a>
+        </div>
+    </section>
+    
+    <!-- Menu Section -->
+    <section >
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="images/burger.jpg" target="_blank">Burger</a></li>
+            <li><a href="images/spaghetii.jpg" target="_blank">spaghetti</a></li>
+            <li><a href="images/salad.jpg" target="_blank">Salad</a></li>
+        </ul>
+    </section>
+    
+</body>
+</html>
